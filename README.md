@@ -1,5 +1,5 @@
 # Design patterns
----
+
 1. [Observer](https://github.com/sebastian-blaszczak)
 2. [Decorator](https://github.com/sebastian-blaszczak)
 3. [Factory](https://github.com/sebastian-blaszczak)
