@@ -13,5 +13,5 @@
 11. [State](https://github.com/sebastian-blaszczak)
 12. [Proxy](https://github.com/sebastian-blaszczak)
 13. ...
----
+
 ### [Source Making design pattern](https://sourcemaking.com/design_patterns)
