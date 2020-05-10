@@ -11,21 +11,6 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    compile 'org.codehaus.groovy:groovy-all:2.4.4'
-    compile 'org.apache.commons:commons-lang3:3.0'
-
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation "org.junit.jupiter:junit-jupiter-api:5.3.0"
-
-    testCompile(
-            'junit:junit:4.12',
-            'org.codehaus.groovy:groovy-all:2.4.4',
-            'org.spockframework:spock-core:1.0-groovy-2.4'
-    )
-
-    testRuntimeOnly "org.junit.vintage:junit-vintage-engine:5.3.0"
-}
 
 test {
     useJUnitPlatform()
@@ -50,4 +35,20 @@ sourceSets {
             srcDir 'src/test/java'
         }
     }
+}
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.4'
+    compile 'org.apache.commons:commons-lang3:3.0'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "org.junit.jupiter:junit-jupiter-api:5.3.0"
+
+    testCompile(
+            'junit:junit:4.12',
+            'org.codehaus.groovy:groovy-all:2.4.4',
+            'org.spockframework:spock-core:1.0-groovy-2.4',
+            'org.assertj:assertj-core:3.9.1'
+    )
+
+    testRuntimeOnly "org.junit.vintage:junit-vintage-engine:5.3.0"
 }
