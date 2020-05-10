@@ -1,4 +1,4 @@
-package creational.patterns.factorymethod;
+package creational.patterns.factorymethod.factory;
 
 import creational.patterns.factorymethod.domain.Country;
 import creational.patterns.factorymethod.domain.Italy;

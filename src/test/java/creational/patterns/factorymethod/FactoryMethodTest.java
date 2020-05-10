@@ -1,6 +1,9 @@
 package creational.patterns.factorymethod;
 
 
+import creational.patterns.factorymethod.factory.CountryFactory;
+import creational.patterns.factorymethod.factory.ItalyFactory;
+import creational.patterns.factorymethod.factory.UnitedKingdomFactory;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import creational.patterns.factorymethod.domain.Country;
